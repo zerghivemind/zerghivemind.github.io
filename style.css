@@ -284,3 +284,43 @@ h3 {
 .title {
     margin: 1em 0;
 }
+
+/* Contact */
+
+#contact {
+    position: relative;
+
+}
+.contact-container {
+    display: grid; 
+}
+
+.contact-details-container {
+    flex-direction: column;
+}
+
+.contact-details-container {
+    display: flex;
+    align-items: center; 
+}
+.title {
+    padding-top: 20rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.contact-container {    
+    padding: 1rem;
+    background: white;
+    border-radius: 1rem;
+    border: solid rgb(255, 226, 226);
+    border-color: rgb(88, 15, 79);
+    text-align: center;
+    grid-template-columns: auto auto auto auto;
+    font-size: 1.25rem;
+    gap: 1rem;
+}
+
+.email-icon {
+    height: 2.5rem;
+}
