@@ -1,3 +1,12 @@
+@media screen and (max-width: 1400px) {
+    #profile {
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    .about-container {
+        flex-wrap: wrap;
+    }
+}
 @media screen and (max-width: 1200px) {
     #desktop-nav {
         display: none;
@@ -5,4 +14,38 @@
     #hamburger-nav {
         display: flex;
     }
+    #container, .hero-container {
+        margin-top: 2rem;
+    }
+    #container,
+    .hero-container {
+        .section-container {
+        display: block;
+        }
+    }
+    section, .hero-container {
+        height: fit-content;
+    }
+    section {
+        margin: 0 5%;
+    }
+    .hero-container {
+        padding-top: 25rem;
+    }
+    .avatar-container {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+    .about-container {
+        margin-top: 0;
+    }
+    .avatar-container {
+        width: 275px;
+        height: 275px;
+    }
+    .avatar {
+        height: fit-content;
+    }
+    
 }
